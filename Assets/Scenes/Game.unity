@@ -138,7 +138,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 87759827}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.76, y: -4.34, z: 0}
+  m_LocalPosition: {x: -1.78, y: -4.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -155,6 +155,7 @@ GameObject:
   - 50: {fileID: 340635726}
   - 61: {fileID: 340635727}
   - 114: {fileID: 340635728}
+  - 95: {fileID: 340635729}
   m_Layer: 0
   m_Name: bunny1_walk1
   m_TagString: Untagged
@@ -247,6 +248,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bunnyJumpForce: 750
+--- !u!95 &340635729
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 340635723}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 903c392e615eeea45adce1284acacb1b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1517775324
 GameObject:
   m_ObjectHideFlags: 0
